@@ -1,7 +1,11 @@
 # Fares Estimations 
 
 Fares estimations is a Python program for calculating fares based on valid segments. 
-It takes a csv file as database and it sets four columns: id_ride, latitude, longitude, timestamp. 
+It takes a csv file as database and it sets four columns: 
+1. id_ride
+2. latitude
+3. longitude
+4. timestamp
 Two consecutive tuples are used to calculate a segment's speed, if the speed is > 100km/h then that segment is invalid. 
 This program removes those invalid tuples and calulates the fare based on the speed, distance and time of the day. 
 There is a Test Class provided. 
